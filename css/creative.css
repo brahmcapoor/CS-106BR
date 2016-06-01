@@ -45,6 +45,11 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+h1{
+    font-size: 150%;
+}
+
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -473,4 +478,15 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+ html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
 }
