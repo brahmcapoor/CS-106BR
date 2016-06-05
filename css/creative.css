@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: whitesmoke;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: whitesmoke;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -46,7 +46,7 @@ h6 {
 }
 
 h1{
-    font-size: 150%;
+    font-size: 80px;
 }
 
 
@@ -54,6 +54,8 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    color:whitesmoke;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .bg-primary {
@@ -183,7 +185,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpg);
     background-size: 100% 100%;
     background-position: center;
     -webkit-background-size: cover;
