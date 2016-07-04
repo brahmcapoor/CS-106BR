@@ -80,7 +80,7 @@ aside {
 }
 
 .no-padding {
-    padding: 0;
+    padding-top: 0;
 }
 
 .navbar-default {
@@ -252,13 +252,15 @@ header .header-content .header-content-inner p {
 }
 
 .service-box {
-    margin: 50px auto 0;
+    margin: auto;
+    display: block;
     max-width: 400px;
 }
 
 @media(min-width:992px) {
     .service-box {
-        margin: 20px auto 0;
+        display: block;
+        margin:auto;
     }
 }
 
@@ -492,4 +494,12 @@ body {
 .vertical-center-row {
     display: table-cell;
     vertical-align: middle;
+}
+
+.document-link{
+    color:#000;
+}
+
+.document-link:hover{
+    
 }
